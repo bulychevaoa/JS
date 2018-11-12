@@ -1,0 +1,31 @@
+<script>
+/*Первая часть задания*/
+var str = prompt("Write some word =",'');
+var i;
+var l=str.length;
+function countsBs(str)
+{
+	for(i=0;i<l;i++)
+	{
+	str.charAt(i);
+	}
+return i;
+}
+document.write(countsBs(str));
+/*Вторая часть задания*/
+var B = prompt("Write element for reserch = ",'');
+var k=0;
+var elem;
+function countChar(str,B)
+{
+	for(i=0;i<l;i++)
+	{	
+		if(elem == B) return B;
+		else
+		{
+		elem=str.charAt(i);
+		}k++;
+	}
+}
+document.write("<p>"+countChar(str,B)+" in "+k+" place </p>");
+</script>

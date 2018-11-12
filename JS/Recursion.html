@@ -1,0 +1,13 @@
+<script>
+var N = prompt("Write N = ",'');
+var k = Math.abs(N);
+function Recursia(k)
+{
+	if(k == 0) 
+	return 0;
+	if(k == 1)
+	return 1;
+	if((k!=0)&&(k!=1)) return Recursia(k-2);
+}
+document.write(Recursia(k));
+</script>
