@@ -1,0 +1,33 @@
+<script>
+var a=1;
+var i;
+
+for (i=0;((a>0)&&(a<101));i++)
+{
+var remainder3 = a%3;
+var remainder5 = a%5;
+if(remainder5 != 0)
+{
+	if(remainder3 != 0)
+		{
+		document.write("<p>"+a+"</p>");
+		}
+	else
+		{
+		document.write("<p>Fizz</p>");
+		}
+}
+else
+{
+	if(remainder3 != 0)
+		{
+		document.write("<p>Buzz</p>");
+		}
+	else
+	{
+	document.write("<p>FizzBuzz</p>");
+	}
+}
+a++;
+}
+</script>

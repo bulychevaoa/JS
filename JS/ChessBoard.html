@@ -1,0 +1,28 @@
+<script type="text/javascript"> 
+alert('Write dimension of board K x N =','');
+var k = prompt('Write dimension K =','');
+var n =	prompt('Write dimension N =','');
+var space = " ";
+var j;
+var Arr =[];
+for (j=1;(j<=n);j++)
+{
+Arr+="#"+" ";
+}
+
+
+var i;
+for (i=1;(i<=k);i++)
+{
+var even = i%2;
+document.write("<p></p>");
+	if(even==0)
+	{
+	document.write("&nbsp"+Arr);
+	}
+	else
+	{
+	document.write(Arr);
+	}
+}
+</script>
