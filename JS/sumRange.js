@@ -1,3 +1,4 @@
+console.log("Глава: Структуры данных. Объекты и массивы");
 var start = prompt("Start with =",'');
 var finish = prompt("Finish on =",'');
 var mass=[];
